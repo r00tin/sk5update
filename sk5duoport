@@ -1,0 +1,25 @@
+#!/bin/bash
+# mir4 sk多端口补丁
+# Author: 0.0<https://www.baidu.com>
+service sockd stop
+echo "internal: 10.0.4.13  port = 8001" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8002" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8003" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8004" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8005" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8006" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8007" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8008" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8009" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8010" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8011" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8012" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8013" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8014" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8015" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8016" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8017" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8018" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8019" > /etc/danted/sockd.conf
+echo "internal: 10.0.4.13  port = 8020" > /etc/danted/sockd.conf
+service sockd adduser 112233 112233
