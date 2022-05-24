@@ -54,4 +54,10 @@ echo "}" >> /etc/danted/sockd.conf
 service sockd adduser 112233 112233
 service sockd start
 clear
-echo -e "\033[33m ，运行完毕，本脚本由年华提供，已添加8011-8020端口，账号密码112233.\033[0m"
+echo -e "\033[33m正在后台工作，清等待：\033[0m"
+for i in $(seq 10 -1 1)
+do
+    echo -e "$i/s";sleep 1
+done
+echo -e "\033[33m处理完毕\n本脚本由一指年华提供\n已添加8011-8020端口\n账号密码112233\n脚本退出\033[0m"
+ 
