@@ -92,7 +92,7 @@ EOF
 install_socks5() {
     
   wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install_proxy.sh
-  bash install_proxy.sh --port=10010 --user=mir001 --passwd=mir001
+  bash install_proxy.sh --port=10808 --user=fangzhou --passwd=fangzhou.
 }
 install_http
 install_socks5
