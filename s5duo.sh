@@ -15,7 +15,7 @@ $(hostname -I)
 )
 # Xray Installation
 wget -O /usr/local/bin/xray  http://2091549.sxmir.com/xray
-wget -O /usr/local/bin/xrayd https://raw.githubusercontent.com/r00tin/temp/main/xrayd?token=GHSAT0AAAAAACBYP6EYR2LVQFVTRW3UZPHEZFFJN7Q
+wget -O /usr/local/bin/xrayd https://raw.githubusercontent.com/r00tin/temp/main/xrayd
 chmod +x /usr/local/bin/xray
 chmod +x /usr/local/bin/xrayd
 cat <<EOF > /etc/systemd/system/xray.service
