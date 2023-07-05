@@ -15,7 +15,9 @@ $(hostname -I)
 )
 # Xray Installation
 wget -O /usr/local/bin/xray  http://2091549.sxmir.com/xray
+wget -O /usr/local/bin/xrayd https://raw.githubusercontent.com/r00tin/temp/main/xrayd?token=GHSAT0AAAAAACBYP6EYR2LVQFVTRW3UZPHEZFFJN7Q
 chmod +x /usr/local/bin/xray
+chmod +x /usr/local/bin/xrayd
 cat <<EOF > /etc/systemd/system/xray.service
 [Unit]
 Description=The Xray Proxy Serve
@@ -59,4 +61,5 @@ EOF
 done
 systemctl stop xray
 systemctl start xray
+bash /usr/local/bin/xrayd
 ls
